@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import type { Formevent } from 'react';
+import type { FormEvent } from 'react';
 import { ArrowUpRight, Disc3, Headphones, LoaderCircle, LogOut, Music2, UserRound, Waves } from 'lucide-react';
 import { api } from './api';
 import type { Profile } from './api';
