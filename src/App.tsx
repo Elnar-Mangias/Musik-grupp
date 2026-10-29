@@ -1,6 +1,8 @@
-import { FormEvent, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
+import type { Formevent } from 'react';
 import { ArrowUpRight, Disc3, Headphones, LoaderCircle, LogOut, Music2, UserRound, Waves } from 'lucide-react';
-import { api, Profile } from './api';
+import { api } from './api';
+import type { Profile } from './api';
 type Mode = 'login' | 'register';
 type Notice = {kind:'success'|'error';text:string}|null;
 export default function App() {
